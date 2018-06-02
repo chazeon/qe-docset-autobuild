@@ -1,0 +1,3 @@
+[submodule "qe-docset"]
+	path = qe-docset
+	url = https://github.com/chazeon/qe-docset.git
