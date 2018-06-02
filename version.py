@@ -37,16 +37,3 @@ class Version:
         return self - other < 0
 
 __all__ = ['Version']
-if __name__ == '__main__':
-    print(sorted([
-        '6.2.7',
-        '6.2.5',
-        '5.3',
-        '6.2.2',
-        '6.2',
-        '6.2.0',
-        '6.2',
-        '6.2.1',
-        '5.2',
-        '6.2.8',
-    ], key=lambda v: Version(v, ignore_trailing_zero=True)))
